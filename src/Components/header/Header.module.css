@@ -1,0 +1,101 @@
+.Header {
+    background-color: black;
+    color: white;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    border-bottom: 0.5px solid rgb(116, 114, 114);
+}
+.navigation{
+    /* background-color: red; */
+    height: 60px;
+    width: fit-content;
+    display: flex;
+    gap: 10px;
+    gap: 3px;
+}
+.premire{
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    border: 3px solid rgb(243, 194, 71);
+    color: rgb(243, 194, 71);
+    padding-top: 10px;
+    padding-left: 25px;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.logo{
+    height: 60px;
+    width: 200px;
+}
+.navLink{
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    align-items: center;
+    padding-top: 2%;
+}
+li{
+    padding: 16px 0px;
+    padding-bottom: 20px;
+}
+li:first-child{
+    border-bottom: 2px solid #d9008d;
+}
+
+
+/* .search */
+.search{
+    height: 60px;
+    width: fit-content;
+    /* background-color: rgb(108, 108, 219); */
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+.searchBox{
+    display: flex; 
+    background-color: #1e1f20;
+    height: 40px;
+    width: 320px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 5%;
+    gap: 12px;
+    padding: 0px 10px ;
+    outline: none;
+    border: none;
+
+}
+.searchicon{
+    height: 40px;
+    background-color: #1e1f20;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 5px;
+
+}
+.inputBox{
+    border: none;
+    width: 70%;
+    height: 40px;
+    
+}
+.micIcon{
+    height: 32px;
+    padding: 5px;
+    background-color: #1e1f20;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.accIcon{
+    height: 40px;
+}

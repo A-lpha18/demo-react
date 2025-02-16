@@ -1,0 +1,9 @@
+.channel{
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    column-gap: 50px;
+    height: 200px;
+    padding: 0px 10px;
+}
