@@ -1,0 +1,10 @@
+.freaturedshow{
+    width: 30%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    /* overflow: hidden; */
+    /* background-color: cadetblue; */
+    
+}

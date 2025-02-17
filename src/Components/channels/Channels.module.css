@@ -1,9 +1,12 @@
 .channel{
-    background-color: bisque;
+    background-color: #060707;
     display: flex;
     align-items: center;
     list-style-type: none;
-    column-gap: 50px;
+    column-gap: 10px;
     height: 200px;
-    padding: 0px 10px;
+    padding: 30px 10px;
+}
+img{
+    border-radius: 5px;
 }

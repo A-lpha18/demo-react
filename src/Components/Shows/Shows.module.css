@@ -1,0 +1,26 @@
+.shows{
+    background-color: #181717;
+    height: 480px;
+    width: 100%;
+    padding: 10px 10px;
+    
+}
+.allshows{
+    /* background-color: blue; */
+    width: 100%;
+    height: 400px;
+    display: flex;
+    overflow: hidden;
+    column-gap: 40px;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0% 50px; */
+}
+
+.font{
+    padding: 0% 10px;
+    color: white;
+}
+img {
+    border-radius: 15px;
+}
